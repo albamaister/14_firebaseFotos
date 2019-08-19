@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { FileItem } from '../../models/file-item';
+import { CargaImagenesService } from '../../services/carga-imagenes.service';
+
 
 @Component({
   selector: 'app-carga',
@@ -7,9 +10,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CargaComponent implements OnInit {
 
-  constructor() { }
+  archivos: FileItem[] = [];
+
+  constructor(public _cargaImagenes: CargaImagenesService) { }
 
   ngOnInit() {
+  }
+  cargarImagenes() {
+    this._cargaImagenes.cargarImagenesFirebase(this.archivos);
   }
 
 }

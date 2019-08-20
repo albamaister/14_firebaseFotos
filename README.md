@@ -2,26 +2,23 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
-## Development server
+En esta aplicación se hace uso de: 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+1. Directivas
 
-## Code scaffolding
+2. Detalles del Hostlistener
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. Input y Outputs
 
-## Build
+4. Storage de Firebase
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+5. uploadTask de Firebase
 
-## Running unit tests
+6. Evento drop, dragenter, dragleave, dragover
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+7. Uso de tipo de dato File
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+![alt text](https://github.com/albamaister/14_firebaseFotos/blob/master/src/assets/fotos1.png) 
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+![alt text](https://github.com/albamaister/14_firebaseFotos/blob/master/src/assets/fotos2.png) 
